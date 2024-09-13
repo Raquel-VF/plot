@@ -3,7 +3,7 @@
 
 @media (max-width:768px) {
     body{
-        position: absolute;
+        overflow-x: hidden;
     }
     .logo img{
         width: 200px;
