@@ -4,6 +4,7 @@
 @media (max-width:768px) {
     body{
         overflow-x: hidden;
+        position: absolute;
     }
     .logo img{
         width: 200px;
@@ -37,6 +38,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow-x: hidden;
 }
 
 main{
