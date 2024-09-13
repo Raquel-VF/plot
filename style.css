@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @media (max-width:768px) {
-    body{
-        overflow-x: hidden;
-        position: absolute;
-    }
     .logo img{
         width: 200px;
         height: auto;
@@ -38,7 +34,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 main{
