@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width:768px) {
+    .logo img{
+        width: 200px;
+        height: auto;
+        
+    }
+    .btn-escolha{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-escolha button{
+        width: 50%;
+        padding: 15px 40px;
+        font-size: 1.1rem;
+    }
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/BG\ 1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+img{
+    padding-bottom: 44px;
+}
+
+.btn-escolha{
+    color: #F4F4F4;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+    
+}
+
+.btn-escolha button{
+    padding: 10px 27px;
+    background-color: #d9d9d993;
+    border-radius: 10px;    
+    color: #F4F4F4;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    position: relative;
+    background-image: none;
+}
+
+.btn-terror:hover{
+    background-image: url(imagens/imagens-botoes/terror\ 1.png);
+    
+}
+.btn-romance:hover{
+    background-image: url(imagens/imagens-botoes/romance\ 1.png);
+}
+.btn-fantasia:hover{
+    background-image: url(imagens/imagens-botoes/Fantasia\ 1.png);
+}
+.btn-comedia:hover{
+    background-image: url(imagens/imagens-botoes/comédia\ 1.png)
+}
+
+
