@@ -43,6 +43,26 @@ main{
     top: 50%;
     transform: translate(-50%, -50%); 
     text-align: center;
+    
+}
+.logo-container{
+    position: relative;
+    display: inline-block;
+}
+.logo{
+    width: 200px;
+}
+.glass-square{
+    position: absolute;
+    top: -27px;
+    left: -27px;
+    width: 63px;
+    height: 63px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1px;
+    backdrop-filter: blur(6px);
+    transform: rotate(70deg);
+    box-shadow: 4px -1px 3px #00000096;
 }
 
 img{
@@ -61,16 +81,19 @@ img{
 }
 
 .btn-escolha button{
+    width: 169px;
+    height: 42px;
     padding: 10px 27px;
-    background-color: #d9d9d993;
     border-radius: 10px;    
     color: #F4F4F4;
-    border: none;
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
     position: relative;
-    background-image: none;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border: 5px solid rgba(255, 255, 255, 00.3s);
+    box-shadow: 4px -1px 3px #00000096;
 }
 
 .btn-terror:hover{
