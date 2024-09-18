@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section div .background-section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+section div .background-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section div.box{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    z-index: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+}
+
+section div.conteudo{
+    width: 80%;
+    min-width: 300px;
+}
